@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Open Sans ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #FFD700 0%, #FF8C00 100%);
+    color: #ffffff;
+    font-family: 'Open Sans ExtraBold', sans-serif;
+    text-align: center;
+}
+
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+#time {
+	margin-top: -50px;
+    font-size: 18vw;
+    margin-bottom: 20px;
+    color: #ffffff; 
+    text-shadow: 2px 2px 5px #000000;
+}
+
+#date {
+    font-size: 4.4vw;
+    color: #ffffff; 
+    text-shadow: 2px 2px 5px #000000;
+    background-color: #F47B5E; 
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#startButton {
+    margin-top: 20px;
+}
+
+#sessionMessage {
+    font-size: 4vw;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+#countdown {
+    font-size: 8vw;
+    margin-bottom: 20px;
+    color: #ffffff; 
+    text-shadow: 2px 2px 5px #000000;
+}
